@@ -1,0 +1,11 @@
+html{
+    font-family: 'Trebuchet MS', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: darkgray;
+}
