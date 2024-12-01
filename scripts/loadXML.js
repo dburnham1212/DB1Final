@@ -1,9 +1,10 @@
-var xhttp = new XMLHttpRequest();
-xhttp.onreadystatechange = function() {
-if (this.readyState == 4 && this.status == 200) {
-myFunction(this);
-}
-};
-xhttp.open("GET", "./scripts/example.xml", true);
-xhttp.send();
+fetch("./scripts/example.xml")
+.then((response) => response.text())
+.then((xmlString) => {
+    const parser = new DOMParser();
+    const xmlDoc = parser.
+        parseFromString(xmlString, "text/xml");
 
+    console.log(xmlDoc);
+    });
+});
