@@ -4,6 +4,6 @@ if (this.readyState == 4 && this.status == 200) {
 myFunction(this);
 }
 };
-xhttp.open("GET", "./example.xml", true);
+xhttp.open("GET", "./scripts/example.xml", true);
 xhttp.send();
 
