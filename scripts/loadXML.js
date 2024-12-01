@@ -6,5 +6,4 @@ fetch("./scripts/example.xml")
         parseFromString(xmlString, "text/xml");
 
     console.log(xmlDoc);
-    });
 });
