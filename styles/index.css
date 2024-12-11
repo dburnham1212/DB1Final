@@ -1,8 +1,3 @@
-section{
-    margin: 10px;
-    padding: 10px 10px;
-}
-
 h1{
     background-color: #26374A;
     color: lightgray;
@@ -12,17 +7,7 @@ h1{
     margin: 0;
 }
 
-h2{
-    background-color: #26374A;
-    color: lightgray;
-    border-radius: 10px 10px 0 0;
-    text-align: center;
-    border: 2px solid black;
-    padding: 10px 0;
-    margin: 0;
-}
-
-img{
+#hero-image{
     object-fit: cover;
     height: 200px;
     width: 100%;
@@ -31,9 +16,54 @@ img{
     vertical-align: bottom;
 }
 
-.statement-body{
-    background-color: white;
-    padding: 20px;
-    border: 2px solid black;
-    border-radius: 0 0 10px 10px;
+#display-container-left{
+    display: flex;
+    border-bottom: 2px solid black;
 }
+
+#display-container-right{
+    display: flex;
+    border-bottom: 2px solid black;
+}
+
+#info-container-right{
+    padding: 50px 125px;
+    background-color: rgb(238, 238, 238);
+}
+
+#info-container-left{
+    padding: 50px 125px;
+    background-color: lightgrey;
+}
+
+#info-title {
+    color: #26374A;
+    border-bottom: 1px dotted #26374A;
+    width: 100%;
+    padding-bottom: 10px;
+    font-size: 1.8rem;
+}
+
+#display-image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+    flex: 1;
+    vertical-align: bottom;
+}
+
+@media only screen and (max-width: 1000px) {
+    #display-container-left{
+        flex-direction: column;
+    }
+    
+    #display-container-right{
+        flex-direction: column-reverse;
+    }
+
+    #info-container-right, #info-container-left{
+        padding: 50px 50px;
+    }
+}
+

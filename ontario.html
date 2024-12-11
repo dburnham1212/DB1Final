@@ -7,7 +7,7 @@
     <title>Canadian Vehicle Registration and Anti-Theft Database - Ontario</title>
     <link rel="stylesheet" href="./styles/global.css">
     <link rel="stylesheet" href="./styles/navbar.css">
-    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/table.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   </head>
   <body>
@@ -16,10 +16,23 @@
     <!-- adding script to populate the navbar and title-->
     <script src="./scripts/navbar.js"></script>
     <!-- page content -->
-    <section>
-      <h2>Ontario</h2>
+    <section id="table-section">
       <div id="div1"></div>
+      <table>
+        <caption>Ontario</caption>
+        <thead>
+          <th>Make</th>
+          <th>Model</th>
+          <th>Year</th>
+          <th>Plate</th>
+          <th>VIN</th>
+        </thead>
+        <tbody id="data-table">
+          <!-- Data rows will be populated here via JavaScript --> 
+        </tbody>
+      </table>
       <script src="./scripts/loadXML.js"></script>
     </section>
+    
   </body>
 </html>

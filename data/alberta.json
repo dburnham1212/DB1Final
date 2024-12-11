@@ -1,0 +1,144 @@
+{
+  "vehicles": [
+    {
+      "make": "Chevy",
+      "model": "Volt",
+      "model_year": "2015",
+      "plate": "BOND-007",
+      "vin_number": "1HGCM82633A123456",
+      "owner_id": "1",
+	  "vehicle_id": "1"
+
+    },
+    {
+      "make": "Dodge",
+      "model": "Calibur",
+      "model_year": "2006",
+      "plate": "STARK-001",
+      "vin_number": "3FA6P0H74KR123456",
+      "owner_id": "2",
+	  "vehicle_id": "2"
+    },
+    {
+      "make": "Pontiac",
+      "model": "Montana",
+      "model_year": "2001",
+      "plate": "ABBA-DNC",
+      "vin_number": "4T1BF1FK9KU123456",
+      "owner_id": "3",
+	  "vehicle_id": "3"
+
+    },
+    {
+      "make": "Pontiac",
+      "model": "Sunfire",
+      "model_year": "2003",
+      "plate": "ARCT-555",
+      "vin_number": "2FMDK4JC0CBA12345",
+      "owner_id": "5",
+	  "vehicle_id": "4"
+
+    },
+    {
+      "make": "Chevy",
+      "model": "El Camino",
+      "model_year": "1973",
+      "plate": "4MTB-879",
+      "vin_number": "JHMZE2H75CS123456",
+      "owner_id": "4",
+	  "vehicle_id": "5"
+    }
+	
+  ],
+  
+  "theft_reports": [
+    {
+		"report_id": "1",
+		"theft_status": "closed",
+		"incident_date": "12/26/2023",
+		"incident_city": "calgary",
+		"incident_address": "312 edmonton st",
+		"vehicle_id": "5"
+    },
+	    {
+		"report_id": "2",
+		"theft_status": "investigating",
+		"incident_date": "04/04/2022",
+		"incident_city": "edmonton",
+		"incident_address": "213 calgary st",
+		"vehicle_id": "4"
+    },
+	    {
+		"report_id": "3",
+		"theft_status": "investigating",
+		"incident_date": "10/15/2023",
+		"incident_city": "red deer",
+		"incident_address": "115 blue deer ave",
+		"vehicle_id": "3"
+    },
+	    {
+		"report_id": "4",
+		"theft_status": "reported",
+		"incident_date": "11/30/2024",
+		"incident_city": "lethbridge",
+		"incident_address": "130 raittunnel dr",
+		"vehicle_id": "2"
+    },
+	    {
+		"report_id": "5",
+		"theft_status": "reported",
+		"incident_date": "09/08/2024",
+		"incident_city": "medcine hat",
+		"incident_address": "908 docsocks st",
+		"vehicle_id": "1"
+    }
+],
+
+  "owners": [
+    {
+	"owner_id": "1",
+	"first_name": "Isla",
+	"last_name": "Sinclair",
+	"email": "isla@sinclairrealestate.ca",
+	"city": "Red Deer",
+	"address": "36 Steward ave.",
+	"postal_code": "T4P 1L3"
+    },
+	{
+	"owner_id": "2",
+	"first_name": "Claire",
+	"last_name": "Moreau",
+	"email": "moreau.c87@live.com",
+	"city": "Edmonton",
+	"address": "512 Sifton st.",
+	"postal_code": "T6N 1R5"
+    },
+    {
+	"owner_id": "3",
+	"first_name": "Thomas",
+	"last_name": "Huang",
+	"email": "t.huang@yahoo.com",
+	"city": "Calgary",
+	"address": "12 Rutherford dr.",
+	"postal_code": "T2B 3H4"
+    },
+    {
+	"owner_id": "4",
+	"first_name": "Earl",
+	"last_name": "Hickey",
+	"email": "thelist@gmail.com",
+	"city": "Camrose",
+	"address": "327 Cliffhanger st.",
+	"postal_code": "T4V 3C7"
+    },
+    {
+	"owner_id": "5",
+	"first_name": "Rory",
+	"last_name": "zhuk",
+	"email": "r.zhuk@gmail.com",
+	"city": "Lethbridge",
+	"address": "214 Haultain st.",
+	"postal_code": "T1H 2L4"
+    }
+]
+}

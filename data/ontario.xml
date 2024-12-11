@@ -1,0 +1,51 @@
+<Ontario> 
+    <Vehicle>
+        <make> Honda </make> 
+        <model> Civic </model>
+        <model_year> 2018 </model_year>
+        <plate> ABC1234 </plate>
+        <vin_number> 1HGCM82633A123456 </vin_number> 
+        <owner_id> 6 </owner_id>
+        <vehicle_id> 6 </vehicle_id> 
+    </Vehicle>
+
+     <Vehicle>
+        <make> Ford </make> 
+        <model> F-150 </model>
+        <model_year> 2021 </model_year>
+        <plate> ZXY0987 </plate>
+        <vin_number> 2HGFB2F59DH123457 </vin_number>  
+        <owner_id> 7 </owner_id>
+        <vehicle_id> 7 </vehicle_id> 
+    </Vehicle>
+
+      <Vehicle>
+        <make> Toyota </make> 
+        <model> Corolla </model>
+        <model_year> 2018 </model_year>
+        <plate> LMN3456 </plate>
+        <vin_number> 1FTFW1EFXEK123458 </vin_number> 
+        <owner_id> 8 </owner_id>
+        <vehicle_id> 8 </vehicle_id>  
+    </Vehicle>
+
+      <Vehicle>
+        <make> Chevrolet </make> 
+        <model> Mailbu </model>
+        <model_year> 2019 </model_year>
+        <plate> PQR6789 </plate>
+        <vin_number> 1G1ZD5ST6KF123459 </vin_number>  
+        <owner_id> 9 </owner_id>
+        <vehicle_id> 9 </vehicle_id>  
+    </Vehicle>
+
+      <Vehicle>
+        <make> Nissan </make> 
+        <model> Altima </model>
+        <model_year> 2021 </model_year>
+        <plate> UWV1122 </plate>
+        <vin_number> 3N1AB7AP1HY123460 </vin_number>  
+        <owner_id> 10 </owner_id>
+        <vehicle_id> 10 </vehicle_id> 
+    </Vehicle>
+</Ontario> 
