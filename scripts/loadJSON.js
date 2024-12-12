@@ -1,6 +1,7 @@
 fetch("https://dburnham1212.github.io/DB1Final/data/alberta.json")
   .then((response) => response.json())
   .then((data) => {
+    console.log(data);
 
     const tableBody = document.getElementById('data-table');
 
