@@ -1,4 +1,4 @@
-fetch("./data/ontario.xml")
+fetch("https://dburnham1212.github.io/DB1Final/data/ontario.xml")
     .then(response => response.text())
     .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
     .then(data => {

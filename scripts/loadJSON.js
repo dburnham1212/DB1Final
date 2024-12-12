@@ -1,4 +1,4 @@
-fetch("./data/alberta.json")
+fetch("https://dburnham1212.github.io/DB1Final/data/alberta.json")
   .then((response) => response.json())
   .then((data) => {
 
